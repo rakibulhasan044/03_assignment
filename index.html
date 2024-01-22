@@ -31,7 +31,7 @@
     </style>
     
 </head>
-<body class="font-manrope">
+<body class="font-manrope mx-2">
     <header class="container mx-auto">
       <nav>
         <div class="navbar bg-base-100">
@@ -69,6 +69,46 @@
           </div>
         </div>
       </nav>
+      <div class="flex lg:relative flex-col items-end gap-4">
+        <!-- slide-container -->
+      <div class="carousel w-full">
+        <!-- slide-1 -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle ">❮</a> 
+            <a href="#slide2" class="btn btn-circle ">❯</a>
+          </div>
+        </div> 
+        <!-- slider-2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <!-- slider-3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- inside dive -->
+      <div class="lg:absolute bottom-8 right-8 p-4 lg:p-8 space-y-4 bg-black w-full lg:w-1/2 rounded-xl">
+        <h3 class="text-white font-bold text-lg md:text-xl lg:text-2xl">
+          Meet all the heroes from the field
+        </h3>
+        <p class="font-medium text-[#FFFFFF99] text-sm lg:text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolores eum doloremque veniam ad amet?
+        </p>
+      </div>
+      </div>
+      
     </header>
 
     <main>
